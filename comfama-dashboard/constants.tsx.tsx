@@ -1,5 +1,4 @@
-
-import { CategoryData } from './types';
+import { CategoryData, SectorData } from './types';
 
 export const CATEGORIES_DATA: CategoryData[] = [
   {
@@ -74,4 +73,14 @@ export const CATEGORIES_DATA: CategoryData[] = [
     footerTag: 'Buena Aprobación, Menor Antigüedad',
     footerClass: 'border-blue-500/30 text-blue-400'
   }
+];
+
+export const SECTOR_DATA: SectorData[] = [
+  { label: "Industrias Manufactureras", d1: "11,168", p1: "3.6", d2: "9,370", p2: "3.1", d3: "42,919", p3: "14.0", total: "63,412", pTotal: "20.7", color: "bg-indigo-500" },
+  { label: "Comercio y Rep. Automotores", d1: "16,065", p1: "5.2", d2: "9,006", p2: "2.9", d3: "21,820", p3: "7.1", total: "46,764", pTotal: "15.3", color: "bg-blue-500" },
+  { label: "Serv. Admin y de Apoyo", d1: "2,897", p1: "0.9", d2: "1,887", p2: "0.6", d3: "28,365", p3: "9.3", total: "33,136", pTotal: "10.8", color: "bg-cyan-500" },
+  { label: "Construcción", d1: "4,266", p1: "1.4", d2: "3,864", p2: "1.3", d3: "15,105", p3: "4.9", total: "23,205", pTotal: "7.6", color: "bg-teal-500" },
+  { label: "Agricultura, Caza y Pesca", d1: "2,238", p1: "0.7", d2: "1,310", p2: "0.4", d3: "18,503", p3: "6.0", total: "22,039", pTotal: "7.2", color: "bg-emerald-500" },
+  { label: "Actv. Profesionales / Técnicas", d1: "4,439", p1: "1.4", d2: "2,395", p2: "0.8", d3: "12,771", p3: "4.2", total: "19,594", pTotal: "6.4", color: "bg-purple-500" },
+  { label: "Atención de la Salud", d1: "1,998", p1: "0.7", d2: "1,072", p2: "0.3", d3: "13,344", p3: "4.4", total: "16,414", pTotal: "5.4", color: "bg-rose-500" }
 ];
