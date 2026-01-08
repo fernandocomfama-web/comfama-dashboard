@@ -1,0 +1,77 @@
+
+import { CategoryData } from './types';
+
+export const CATEGORIES_DATA: CategoryData[] = [
+  {
+    id: '1smm',
+    title: 'Usuarios 1 Salario Mínimo',
+    icon: '👤',
+    headerGradient: 'from-cyan-400 to-blue-500',
+    approvalRate: 70.8,
+    rejectionRate: 20.2,
+    isApprovalMain: true,
+    requests: '132,010',
+    users: '73,773',
+    extraStatLabel: 'Cuota Monetaria',
+    extraStatValue: '69.3%',
+    seniorityMore12: { label: '> 12 meses', value: '71.53%', note: 'Prom: 42 meses', percentage: 71.53 },
+    seniorityLess12: { label: '< 12 meses', value: '28.47%', note: 'Prom: 10 meses', percentage: 28.47 },
+    companySizeMore50: { label: '> 50 empleados', value: '61.27%', note: 'Prom: 35 meses', percentage: 61.27 },
+    footerTag: 'Estabilidad Laboral y Alta Aprobación',
+    footerClass: 'border-emerald-500/30 text-emerald-400'
+  },
+  {
+    id: 'consumos',
+    title: '1 SMMLV + Consumos',
+    icon: '🛒',
+    headerGradient: 'from-pink-400 to-orange-400',
+    approvalRate: 19.3,
+    rejectionRate: 53.1,
+    isApprovalMain: false,
+    requests: '37,612',
+    users: '27,870',
+    extraStatLabel: 'Afiliación',
+    extraStatValue: '32.77m',
+    seniorityMore12: { label: '> 12 meses', value: '79.42%', note: 'Prom: 38 meses', percentage: 79.42 },
+    seniorityLess12: { label: '< 12 meses', value: '20.58%', note: 'Prom: 10 meses', percentage: 20.58 },
+    companySizeMore50: { label: '> 50 empleados', value: '59.13%', note: 'Prom: 32 meses', percentage: 59.13 },
+    footerTag: 'Alto Nivel de Rechazo y Endeudamiento',
+    footerClass: 'border-rose-500/30 text-rose-400'
+  },
+  {
+    id: 'cuota',
+    title: '1 SMMLV + Cuota Monetaria',
+    icon: '💳',
+    headerGradient: 'from-teal-400 to-indigo-600',
+    approvalRate: 93.7,
+    rejectionRate: 6.2,
+    isApprovalMain: true,
+    requests: '91,625',
+    users: '51,092',
+    extraStatLabel: 'Afiliación',
+    extraStatValue: '33.88m',
+    seniorityMore12: { label: '> 12 meses', value: '68.58%', note: 'Prom: 43 meses', percentage: 68.58 },
+    seniorityLess12: { label: '< 12 meses', value: '31.42%', note: 'Prom: 9.5 meses', percentage: 31.42 },
+    companySizeMore50: { label: '> 50 empleados', value: '62.31%', note: 'Prom: 36 meses', percentage: 62.31 },
+    footerTag: 'Portafolio Más Sano y Aprobación Alta',
+    footerClass: 'border-cyan-500/30 text-cyan-400'
+  },
+  {
+    id: 'venezolanos',
+    title: '1 SMMLV + Venezolanos',
+    icon: '🇻🇪',
+    headerGradient: 'from-yellow-200 via-blue-400 to-red-500',
+    approvalRate: 68.2,
+    rejectionRate: 6.5,
+    isApprovalMain: true,
+    requests: '5,637',
+    users: '4,782',
+    extraStatLabel: 'Afiliación',
+    extraStatValue: '24.67m',
+    seniorityMore12: { label: '> 12 meses', value: '76.38%', note: 'Prom: 29 meses', percentage: 76.38 },
+    seniorityLess12: { label: '< 12 meses', value: '23.62%', note: 'Prom: 10 meses', percentage: 23.62 },
+    companySizeMore50: { label: '> 50 empleados', value: '63.17%', note: 'Prom: 24 meses', percentage: 63.17 },
+    footerTag: 'Buena Aprobación, Menor Antigüedad',
+    footerClass: 'border-blue-500/30 text-blue-400'
+  }
+];
